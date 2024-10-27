@@ -1,0 +1,28 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    gap: 1em;
+}
+
+.syncButtonContainer button {
+    margin: auto;
+    padding: 3em 1.5em;
+    font-size: 16px;
+}
+
+.table {
+    width: 100%;
+    table-layout: fixed;
+}
+
+.table td {
+    max-width: 200px;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+    overflow: hidden;
+}
+
+.center {
+    text-align: center;
+}
